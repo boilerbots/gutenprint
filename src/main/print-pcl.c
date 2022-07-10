@@ -692,6 +692,15 @@ static const short dj2500_papersources[] =
   -1,
 };
 
+static const short km_papersources[] =
+{
+  PCL_PAPERSOURCE_STANDARD,
+  PCL_PAPERSOURCE_LJ_TRAY1,
+  PCL_PAPERSOURCE_LJ_TRAY2,
+  PCL_PAPERSOURCE_LJ_TRAY3,
+  -1,
+};
+
 static const short standard_papersources[] =
 {
   PCL_PAPERSOURCE_STANDARD,
@@ -1489,6 +1498,20 @@ static const pcl_cap_t pcl_model_capabilities[] =
     ljsmall_papersizes,
     emptylist,
     laserjet_papersources,
+  },
+  /* Unofficial Konica Minolta Bizhub C360 */
+  { 50013,
+    864, 1296,	/* 12*18 */
+    1, 1,				/* Min paper size */
+    PCL_RES_150_150 | PCL_RES_300_300 | PCL_RES_600_600,
+    {0, 0, 0, 0},
+    {0, 0, 0, 0},
+    PCL_COLOR_RGB,
+    PCL_PRINTER_LJ_COLOR | PCL_PRINTER_NEW_ERG | PCL_PRINTER_TIFF | PCL_PRINTER_BLANKLINE |
+      PCL_PRINTER_DUPLEX | PCL_PRINTER_COPIES,
+    ljtabloid_papersizes,
+    emptylist,
+    km_papersources,
   },
 };
 

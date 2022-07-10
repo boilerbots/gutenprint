@@ -205,6 +205,7 @@
       <printer translate="name" name="Generic PCL Color wide margin" driver="pcl-g_c_a4" manufacturer="Generic" model="50002" parameters="pcl_laser_params">EXPERIMENTAL</printer>
       <printer translate="name" name="Generic PCL Color LF wide margin" driver="pcl-g_c_lf_a4" manufacturer="Generic" model="50003" parameters="pcl_laser_params">EXPERIMENTAL</printer>
       <printer translate="name" name="Generic PCL Color Tabl wide margin" driver="pcl-g_c_tabloid_a4" manufacturer="Generic" model="50004" parameters="pcl_laser_params">EXPERIMENTAL</printer>
+      <printer translate="name" name="Konica Minolta Bizhub C360" driver="pcl-km_c360" manufacturer="Konica Minolta" model="50013" parameters="pcl_laser_params">EXPERIMENTAL</printer>
       <printer translate="name" name="Gestetner 10512" driver="gestetner-10512" manufacturer="Gestetner" model="61" parameters="pcl_laser_params" />
       <printer translate="name" name="Gestetner 2212" driver="gestetner-2212" manufacturer="Gestetner" model="61" parameters="pcl_laser_params" />
       <printer translate="name" name="Gestetner 2712" driver="gestetner-2712" manufacturer="Gestetner" model="61" parameters="pcl_laser_params" />
