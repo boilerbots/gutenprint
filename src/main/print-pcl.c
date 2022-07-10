@@ -1504,8 +1504,8 @@ static const pcl_cap_t pcl_model_capabilities[] =
     864, 1296,	/* 12*18 */
     1, 1,				/* Min paper size */
     PCL_RES_150_150 | PCL_RES_300_300 | PCL_RES_600_600,
-    {0, 0, 0, 0},
-    {0, 0, 0, 0},
+    {12, 12, 18, 18},
+    {12, 12, 18, 18},	/* Check/Fix */
     PCL_COLOR_RGB,
     PCL_PRINTER_LJ_COLOR | PCL_PRINTER_NEW_ERG | PCL_PRINTER_TIFF | PCL_PRINTER_BLANKLINE |
       PCL_PRINTER_DUPLEX | PCL_PRINTER_COPIES,
