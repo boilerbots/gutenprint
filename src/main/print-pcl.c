@@ -1501,11 +1501,11 @@ static const pcl_cap_t pcl_model_capabilities[] =
   },
   /* Unofficial Konica Minolta Bizhub C360 */
   { 50013,
-    864, 1296,	/* 12*18 */
+    856, 1224,	/* 11.75*17 in points*/
     1, 1,				/* Min paper size */
     PCL_RES_150_150 | PCL_RES_300_300 | PCL_RES_600_600,
-    {12, 12, 18, 18},
-    {12, 12, 18, 18},	/* Check/Fix */
+    {0, 0, 0, 0}, /* fullbleed 11 should be possible */
+    {0, 0, 0, 0},
     PCL_COLOR_RGB,
     PCL_PRINTER_LJ_COLOR | PCL_PRINTER_NEW_ERG | PCL_PRINTER_TIFF | PCL_PRINTER_BLANKLINE |
       PCL_PRINTER_DUPLEX | PCL_PRINTER_COPIES,
